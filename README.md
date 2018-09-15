@@ -52,7 +52,7 @@ Accéder à "Gestion des accès" puis sur l'onglet "Applications" éditer "ipv4C
 Exécuter le script, si possible avec screen pour ne pas avoir une console ouverte tout le temps. Écrire si besoin dans un fichier de log.
 
 ```
-./checkIPV4.sh https://[2a01:xxxx:xxxx:xxx0::1]:ppppp y.y.y.y <MY_APP_ID> "<MY_APP_TOKEN>" > /root/checkIPV4.log
+./checkIPV4.sh <IPV6:PORT de la Freebox> <IPV4 distante> <MY_APP_ID> "<MY_APP_TOKEN>" > /root/checkIPV4.log
 ```
 
 Exemple
